@@ -1,4 +1,4 @@
-import json
+import toml
 import enum
 from driver_factory import get_driver
 
@@ -22,9 +22,6 @@ CURRENTLY_IN_MEETING = '//*[@id="page-content-wrapper"]/div[1]/div/calling-scree
 # '//*[@ng-if="::ctrl.enableRosterParticipantsLimit"]'
 HANGUP_BUTTON = '//button[@id="hangup-button"]'
 
-#Time (in sec)
-TIMEOUT = 60
-
 
 #Messages
 OOPS_MESSAGE = 'Something went wrong. Please run the script again'
@@ -43,8 +40,8 @@ class status_code(enum.Enum):
 
 
 #Data from Settings
-data = json.load(open('settings.json'))
+data = toml.load(open('settings.toml'))
 
 EMAIL_ID = data['email_id']
-MINIMUM_PARTICIPANTS = int(data['minimum_participants'])
-
+MINIMUM_PARTICIPANTS = data['minimum_participants']
+TIMEOUT = data['timeout']

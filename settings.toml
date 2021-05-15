@@ -1,0 +1,22 @@
+#Settings for AutoMeet
+
+# User Account
+
+email_id = "user@email.com"
+password = "password"
+
+
+
+# Meeting settings
+
+minimum_participants = 10       
+# AutoMeet will leave the meeting if the number of people attending the meeting drops below this.
+
+
+
+
+# Advance Settings -- DON'T LOOK HERE IF YOU DON"T NEED TO 
+
+timeout = 60
+# Basically, the amount of time required for logging in to teams or a meeting to connect.
+# Default: one minute. Set it higher if your internet is slow or lower if your internet is fast.
