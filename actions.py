@@ -18,10 +18,11 @@ def login():
     wait_for_element_to_be_clickable(NEXT_BUTTON, 10)
     browser.find_element_by_xpath(NEXT_BUTTON).click()  
     wait_for_element_to_be_clickable(NEW_MEETING_BUTTON)
-    print_message(LOGIN_SUCCESSFUL, status_code.SUCCESS)
     if login_failed():
         print_message(LOGIN_FAILED, status_code.FAILED)
         try_again()
+    else:
+        print_message(LOGIN_SUCCESSFUL, status_code.SUCCESS)
     
 
 
@@ -55,7 +56,7 @@ def join_meeting():
     browser.find_element_by_xpath(PREJOIN_JOIN_BUTTON).click()
     print_message('Connecting', status_code.LOADING)
     wait_for_element_to_be_clickable(HANGUP_BUTTON)
-    print_message('Joined meeting', status_code.SUCCESS)
+    print_message('Joined Meeting at {}'.format(datetime.now()) , status_code.SUCCESS)
     
 
 def leave_meeting():
@@ -64,7 +65,7 @@ def leave_meeting():
         sleep(60)
     print_message('Leaving', status_code.LOADING)
     browser.execute_script("document.getElementById('hangup-button').click()")
-    print_message('Left Meeting at %d' , datetime.now())
+    print_message('Left Meeting at {}'.format(datetime.now()) , status_code.SUCCESS)
 
 
           
