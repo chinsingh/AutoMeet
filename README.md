@@ -40,6 +40,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 You can also [report a bug, request a feature](https://github.com/chinsingh/AutoMeet/issues/new/choose) or [email me](mailto:mr.chinmaysingh.gmail.com).
 
+## Credits
+Thanks to [Atharva Lipare](https://github.com/atharva-lipare) for [MS Teams Auto Joiner](https://github.com/atharva-lipare/MS-Teams-Auto-Joiner).
+Although, not forked from his repository, I found solutions to quite a few problems from his repo.
 
 ## License
 [MIT](https://github.com/chinsingh/AutoMeet/blob/master/LICENSE.md)
