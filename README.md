@@ -9,7 +9,7 @@ Installation for the script is not required. Although, there are some prerequisi
 * You need to have [python](https://www.python.org/downloads/) on your system.
 * Also, only [Google Chrome](https://www.google.com/intl/en_in/chrome/) browser is supported [for now](https://github.com/chinsingh/AutoMeet/issues/2).
 
-Once you have both of these, go to the **Code** button on top-right area of this repo, download the zip and extract it. [![Code Button Image](https://docs.github.com/assets/images/help/repository/code-button.png =50%x50%)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) You can also clone it if you are that kind of person.
+Once you have both of these, go to the **Code** button on top-right area of this repo, download the zip and extract it. [![Code Button Image](https://docs.github.com/assets/images/help/repository/code-button.png)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) You can also clone it if you are that kind of person.
 
 
 After you have this repository on your system, follow the initial configuration steps listed below.
