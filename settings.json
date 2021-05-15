@@ -1,5 +1,6 @@
 {
     "email_id":"chinmay.singh@sap.com",
     "is_office365":true,
-    "password": ""
+    "password": "",
+    "minimum_participants":"2"
 }
