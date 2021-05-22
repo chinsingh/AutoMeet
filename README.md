@@ -29,7 +29,9 @@ You are now ready to use AutoMeet.
 
 ## Usage
 
-Run [automeet.py](https://github.com/chinsingh/AutoMeet/blob/master/automeet.py)
+Double click the file [automeet.py](https://github.com/chinsingh/AutoMeet/blob/master/automeet.py) in the saved folder
+
+OR run 
 ```bash
 python automeet.py
 ```
